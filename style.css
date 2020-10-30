@@ -9,6 +9,7 @@ body{
   background-color: #1E1E20;
   color: #f3f3f4;
   font-family: "Quicksand";
+  overflow: hidden;
 }
 #head{
   width: 100%;
@@ -47,6 +48,7 @@ body{
 }
 .box{
   display: flex;
+  width: 100%;
 }
 .box1{
   display: flex;
