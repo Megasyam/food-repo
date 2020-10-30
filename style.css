@@ -9,6 +9,8 @@ body{
   background-color: #1E1E20;
   color: #f3f3f4;
   font-family: "Quicksand";
+  width: 100%;
+  overflow-x: hidden;
 }
 #head{
   width: 100%;
