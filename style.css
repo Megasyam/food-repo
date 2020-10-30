@@ -1,0 +1,404 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #1E1E20;
+  color: #f3f3f4;
+  font-family: "Quicksand";
+}
+#head{
+  width: 100%;
+}
+#logo{
+  margin: 5px 0 5px 50px;
+}
+#navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF5B2B;
+  margin: 0;
+  align-items: center;
+  
+}
+#search-bar{
+  background-color: #f3f3f4; 
+  color:  #1E1E20;
+  outline: none;
+  padding: 8px 25px;
+  border: 0;
+  width: 49.98%;
+  height: auto;
+  border-radius: 20px;
+}
+#user{
+  display: flex;
+  align-items: center;
+}
+#user>p{
+  font-size: 20px; 
+  font-weight: bold; 
+  margin-left: 15px; 
+  margin-right: 50px;
+}
+.box{
+  display: flex;
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f4; 
+  color:  #1E1E20;
+  padding: 7px;
+  margin-right: 10px;
+  text-align: center;
+}
+.box1>h1{
+  font-size: 30px;
+}
+.sub-cuisines{
+  padding: 20px 6px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.box2{
+  margin-left: 20px;
+}
+.box2>.hot-items>h1{
+  padding-top: 15px;
+}
+.food-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.food-item1{
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f3f3f4;
+  color:  #1E1E20;
+  border-radius: 15px;
+  box-shadow: 0.1px 0.1px 20px 4px #545455;
+}
+.food-item1>img[src = "images/five-star.png"]{
+  border-radius: 0px;
+}
+/*.Top-Sellers0{
+  display: flex;
+  flex-direction: column;
+}*/
+.Top-Sellers1{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Top-Sellers2{
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f3f3f4;
+  color:  #1E1E20;
+  border-radius: 15px;
+  box-shadow: 0.1px 0.1px 20px 4px #545455;
+}
+.food{
+  border-radius: 15px;
+}
+.Top-Sellers2>img[src = "images/five-star.png"]{
+  border-radius: 0px;
+}
+.loc{
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+}
+img[src = "images/Add-to-Cart.png"]{
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+}
+.rating>h3{
+  margin-top: 6px;
+}
+.box3{
+  padding: 10px 20px;
+  margin: 15px;
+  margin-left: 30px;
+  width: 340px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f4;
+  color:  #1E1E20;
+  border-radius: 15px;
+  box-shadow: 0.1px 0.1px 20px 4px #474748;
+}
+.box3>h1{
+  padding: 8px 0; 
+  text-align: center;
+}
+.box3>h3{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.loc-time{
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+}
+.loc-time>img{
+  margin-right: 3px;
+}
+.order-food{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  padding-top: 8px;
+  margin-top: 3px;
+}
+.order-food>img{
+  border-radius: 50%;
+}
+.order-food>p{
+  font-weight: bold;
+}
+.sub-total{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.Promo-card{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #FFD6DE;
+  color: #FF4342;
+  border-radius: 10px;
+  height: 50px;
+}
+.Promo-card>h2{
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 20px;
+  letter-spacing: 0.03em;
+}
+img[src="images/add-coupon.png"]{
+  width: 80px;
+  height: 40px;
+}
+.coupon-btn{
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #FF4342;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+.coupon-btn:hover{
+  background-color: #ef2a29;
+}
+.coupon-btn:active {
+  background-color: #ef2a29;
+  transform: scale(0.9);
+}
+.total{
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.checkout-btn{
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  align-items: center;
+  background-color: #FF4342;
+  color: #f3f3f4;
+  font-size: 30px;
+  padding: 10px 50px;
+  margin: 25px 45px;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+.checkout-btn:hover{
+  background-color: #ef2a29;
+}
+.checkout-btn:active {
+  background-color: #ef2a29;
+  transform: scale(0.9);
+}
+hr{
+  opacity: 0.2;
+}
+.cart-btn{
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 40px;
+  height: auto;
+  margin-top: 4px;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  opacity: 0.8;
+  align-self: center;
+}
+.cart-btn:hover{
+  opacity: 1;
+}
+.cart-btn:active {
+  transform: scale(0.9);
+}
+
+/*@media (min-width: 600px) 
+{
+  .sub-cuisines{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+375-1264
+
+  }
+  
+}*/
+@media all and (max-width: 400px){
+  #head{
+    width: 100%;
+  }
+  #logo{
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 2px;
+  }
+  #navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+  width: 100%;
+  }
+  #search-bar{
+  outline: none;
+  padding: 8px 25px;
+  border: 0;
+  width: 49.98%;
+  height: auto;
+  border-radius: 20px;
+  }
+  #user>img{
+    width: 25px;
+    height: auto;
+    margin-left: 2px;
+  }
+  #user>p{
+  font-size: 15px; 
+  font-weight: bold;
+  margin-left: 3px;
+  margin-right: 10px;
+  }
+  .box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 250px;
+  }
+  .box1{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  .box1>h1{
+    font-size: 28px;
+  }
+  .Cuisines{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sub-cuisines{
+    padding: 5px 6px;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .sub-cuisines>h2{
+    font-size: 15px;
+  }
+  .sub-cuisines>img{
+    width: 45px;
+    height: 45px;
+  }
+  .food-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .food-item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+  }
+  .rating>h3{
+    font-size: 15px;
+  }
+  img[src = "images/five-star.png"]{
+    width: 40px;
+    height: 15px;
+  }
+  .loc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .loc>img{
+    width: 10px;
+    height: 10px;
+  }
+  .loc>p{
+    font-size: 5px;
+    text-align: center;
+  }
+  .cart-btn{
+    width: 27px;
+    height: 27px;
+  }
+  img[src = "images/Add-to-Cart.png"]{
+  width: 27px;
+  height: auto;
+  border-radius: 50%;
+  }
+  .food{
+    width: 60px;
+    height: 60px;
+  }
+  .Top-Sellers2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+  }
+  .box3{
+    margin-left: 26px;
+    width: 320px;
+    height: 620px;
+  }
+}
